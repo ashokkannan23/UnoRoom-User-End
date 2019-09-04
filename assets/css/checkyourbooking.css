@@ -1,0 +1,229 @@
+body {
+font: 400 15px Open Sans, sans-serif;
+line-height: 1.8;
+/* color: #818181; */
+font-family: 'Open Sans', sans-serif;
+background-color:#f5f5f5;
+}
+
+.fa-rupee-sign{
+  font-size: 15px;
+}
+
+.checked {
+  color: orange;
+  }
+  .borderShadowBGColor{
+
+  border:solid 1px #D7D7DB;
+  padding:10px;
+  box-shadow:  0px 0px 3px #20262E;
+  float: none !important;
+  margin: 0 auto;
+  overflow:hidden;
+  clear:both;
+ 
+  }
+.table>tbody>tr>td{
+	border-top:none;
+	padding:0 8px 8px 8px;
+}
+.table>thead>tr>th{
+	border-bottom:none;
+	padding:8px 8px 0 8px;
+}
+/* #nextButton{ */
+	/* float:right; */
+/* } */
+
+#menFamilyicon > span{
+	line-height:25px;
+	
+}
+
+
+
+
+h2 {
+font-size: 24px;
+text-transform: uppercase;
+color: #303030;
+font-weight: 600;
+margin-bottom: 30px;
+}
+h3{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+h4 {
+font-size: 19px;
+line-height: 1.375em;
+color: #303030;
+font-weight: 400;
+margin-bottom:0px;
+}  
+.jumbotron {
+
+background:#20274D;
+background-repeat: no-repeat;
+background-size: 800% 30%;
+color: #fff;
+padding: 10px 0;
+font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+/* font-family: Montserrat, sans-serif; */
+
+
+}
+.center {
+ width: 70%;
+}
+.jumbotron p {
+margin-bottom: 1px;
+font-size: 21px;
+font-weight: 200;
+text-align: left;
+.container-fluid {
+}
+/* padding: 60px 50px; */
+}
+.logo-small {
+color: #f4511e;
+font-size: 50px;
+}
+.logo {
+color: #f4511e;
+font-size: 200px;
+}
+.panel {
+border: 1px solid #f4511e; 
+border-radius:0 !important;
+transition: box-shadow 0.5s;
+}
+.panel:hover {
+box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover {
+border: 1px solid #f4511e;
+background-color: #fff !important;
+color: #f4511e;
+}
+.panel-heading {
+color: #fff !important;
+background-color: #f4511e !important;
+padding: 25px;
+border-bottom: 1px solid transparent;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+.panel-footer {
+background-color: white !important;
+}
+.panel-footer h3 {
+font-size: 32px;
+}
+.panel-footer h4 {
+color: #aaa;
+font-size: 14px;
+}
+.panel-footer .btn {
+margin: 15px 0;
+background-color: #f4511e;
+color: #fff;
+}
+.navbar {
+margin-bottom: 20px;
+background: none !important;
+/* z-index: 9999; */
+border: 0;
+font-size: 12px !important;
+line-height: 1.42857143 !important;
+letter-spacing: 4px;
+border-radius: 0;
+font-family: 'Open Sans', sans-serif;
+padding-right:20px;
+
+}
+#myNavbar>span{
+font-size: 12px !important;
+}
+.navbar li a, .navbar .navbar-brand {
+color: #000 !important;
+
+
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top{
+height: 70px !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+color: red!important;
+/* background-color: transparent !important; */
+
+}
+.nav {
+margin-top:10px !important;
+color: #fff !important;
+font-size: 12px !important;
+
+}
+.nav>.contact{
+margin-top:15px !important;
+color: #fff !important;
+background-color:#FF0000;
+padding:5px;
+border-radius: 7px;
+
+
+}
+.navbar-default .navbar-toggle {
+/* border-color: transparent; */
+color: #fff !important;
+background: none !important!;
+}
+footer .glyphicon {
+font-size: 20px;
+margin-bottom: 20px;
+color: #f4511e;
+}
+.slideanim {visibility:hidden;}
+.slide {
+animation-name: slide;
+-webkit-animation-name: slide;
+animation-duration: 1s;
+-webkit-animation-duration: 1s;
+visibility: visible;
+}
+
+
+@media screen and (max-width: 768px) {
+.navbar-nav>li {float: none !important;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+background: #fff !important;
+margin-top: 20px;
+text-align:center;
+}
+
+.col-sm-4 {
+text-align: center;
+margin: 25px 0;
+}
+.nav {
+margin-top:10px !important;
+color: #000!important;
+font-size: 12px !important;
+
+}
+
+}
+@media screen and (max-width: 480px) {
+.logo {
+font-size: 150px;
+}
+}
+
+
+
+

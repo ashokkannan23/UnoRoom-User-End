@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Theme Made By www.w3schools.com -->
+	<title>Bootstrap Theme Company Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/booking.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-1/css/all.css"
+		integrity="sha256-EcGUi8tmNNttsaS+YXRx8L85zgJkdkUNahQr5mQKMUI=" crossorigin="anonymous" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<link rel="stylesheet" type="text/css"
+		href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script src='assets/loadHtml/load.js'></script>
+</head>
+
+<body>
+	<!-- Navbar Header -->
+	<div id="NavBarwithAddress"></div>
+
+	<div class="container" style="padding-bottom:10px;">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 borderShadowBGColor userForm">
+				<div class="col-md-12">
+					<h4 style="margin-bottom: 15.5px;">Let us know who you are</h4>
+				</div>
+				<div class="form-group col-md-12">
+					Full Name <span style="color:red;font-size:12px;" id="name"> </span> <input type="text"
+						class="form-control" value="" id="usr" name="username">
+				</div>
+				<div class="form-group col-md-12">
+					Email <span style="color:red;font-size:12px;" id="mail"> </span> <input type="text"
+						class="form-control" value="" id="email" name="username">
+				</div>
+				<div class="form-group col-md-12">
+					Retype Email <span style="color:red;font-size:12px;" id="remail"> </span> <input type="text"
+						class="form-control" value="" id="retype" name="username">
+				</div>
+				<div class="form-group col-md-6 float-left">
+					Phone number (optional) <input type="text" class="form-control" value="" id="phone" name="username">
+				</div>
+				<div class="form-group col-md-6 float-left">
+					Country of residence <select class="form-control form-control-md" id="country" name="sellist1">
+					</select>
+				</div>
+				<div class="col-md-12">
+					<p>
+						<font size="2.5">By proceeding with this booking, I agree to UnoRoom’s<a href="#"> Terms of
+								Use</a> and <a href="#">Privacy Policy.</a></font>
+					</p>
+				</div>
+				<div class="col-md-12">
+					<button onclick="location.href='checkYourBooking.html';" type="button" id="nextButton"
+						class="btn btn-primary btn-lg">NEXT</button>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<div id="AddDatePrice" class="row">
+					<div id="Addressdetails" class="col-lg-12  borderShadowBGColor">
+						<h4>Melange Astris</h4>
+						<div id="title">
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+						</div>
+						<font size="2">No. 1, Langford Gardens, Richmond Road, Bangalore City Center, Bangalore, India
+							560001</font>
+					</div>
+					<div id="Datedetails" class="col-lg-12  borderShadowBGColor">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>
+										<font size="2">30 Aug 2019 - 31 Aug 2019</font>
+									</th>
+									<th>
+										<font size="2">1 night</font>
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td style="font-size:15px;">1 x Luxury Suite</td>
+									<td><a href="#">change</a></td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<div>
+											<img class="img-valign" src="assets/image/rating.jpg" alt="" width="40"
+												height="30" />
+											<font color="#5392f9">Excellent cleanliness</font>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2" id="menFamilyicon">
+										<span style="font-size:15px;"><img src="assets/image/single.svg" width="23"
+												height="18" /> 1 room, 2 adults</span></br>
+										<span style="font-size:15px;"><img src="assets/image/family.svg" width="23"
+												height="18" /> Max 2 adults, 2 children (0-7 years)</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div id="Pricedetails" class="col-lg-12  borderShadowBGColor">
+						<table class="table table table-borderless">
+							<tbody>
+								<tr>
+									<td>Original price (1 room x 1 night)</td>
+									<td>Rs.<s>10,500.00</s></td>
+								</tr>
+								<tr>
+									<td>Price (1 room x 1 night)
+									</td>
+									<td>Rs.4,248.56</td>
+								</tr>
+								<tr>
+									<td>Booking fees</td>
+									<td><a href="#">Free</a></td>
+								</tr>
+								<tr style="border-top: 1px solid gray;">
+									<td>Price <i class="fa fa-info-circle"></i></td>
+									<td><b>Rs.5,013.30</b></td>
+								</tr>
+								<tr>
+									<td>
+										<font size="2">Included in price: GST 18%</font>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div id="footer"></div>
+	
+	<script src="scripts/api/api.js"></script>
+	<script src="scripts/api/meta.js"></script>
+	<script src="scripts/api/property.js"></script>
+	<script src="scripts/controller/roombooking.js"></script>
+</body>
+
+</html>

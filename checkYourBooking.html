@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Theme Made By www.w3schools.com -->
+	<title>Bootstrap Theme Company Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/checkyourbooking.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-1/css/all.css"
+		integrity="sha256-EcGUi8tmNNttsaS+YXRx8L85zgJkdkUNahQr5mQKMUI=" crossorigin="anonymous" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<link rel="stylesheet" type="text/css"
+		href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script src='assets/loadHtml/load.js'></script>
+</head>
+
+<body>
+	<!-- Navbar Header -->
+	<div id="NavBarwithAddress"></div>
+
+	<div class="container" style="padding-bottom:10px;">
+		<div class="row" id="makeItcenter">
+			<div class="col-lg-9 col-md-9 borderShadowBGColor userForm">
+				<div class="col-md-12">
+					<h3 style="margin-bottom: 15.5px;text-align:center;">Check your booking</h3>
+				</div>
+				<div class="col-md-12">
+					<h4>Melange Astris</h4>
+					<div id="title">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+					</div>
+					<p style="font-size:15px;">No. 1, Langford Gardens, Richmond Road, Bangalore City Center, Bangalore,
+						India 560001</p>
+					<p style="font-size:14px;font-weight:600;">Total length of stay: 1 nights</p>
+					<table class="table" style="background:#DBDBDB;padding:10px;border-radius:5px;">
+						<thead>
+							<tr>
+								<th>
+									<p style="font-size:15px;">Check-in:</p>
+								</th>
+								<th>
+									<p style="font-size:15px;">Check-out:</p>
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td style="font-size:15px;">Wednesday <b>30 August</b> 2019 from 12:00</td>
+								<td style="font-size:15px;">Friday <b>31 August</b> 2019 until 11:00</td>
+							</tr>
+							<tr>
+								<td colspan="2" id="menFamilyicon">
+									<button type="button" class="btn btn-link"
+										style="border:1px solid gray;border-radius:5px;border-color:#0077CC">Change
+										dates</button>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2" id="menFamilyicon">
+									<p class="">1 × <b>Luxury Suite <span style="color:#056106;cursor:pointer;">FREE
+												cancellation</span></b><br>Guests: 3 adults, 1 child (under 6 years of
+										age)</p>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2" id="menFamilyicon">
+									<p class=""><b style="font-size:18px;">Price <i class="fas fa-rupee-sign"></i> 5,013.30</b><br>Goods & services tax
+										is excluded.</p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="col-md-12 text-center">
+						<button onclick="location.href='completeBooking.html';" type="button" id="nextButton"
+							class="btn btn-primary btn-lg">Complete booking</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div id="footer"></div>
+
+	<script src="scripts/api/api.js"></script>
+	<script src="scripts/api/meta.js"></script>
+	<script src="scripts/api/property.js"></script>
+	<script src="scripts/controller/roombooking.js"></script>
+</body>
+
+</html>
